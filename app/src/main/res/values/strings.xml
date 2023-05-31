@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Cashfy</string>
+
+    <string name="mensaje_inicial">Su saldo actual</string>
+    <string name="boton_Ingreso">Nuevo Ingreso</string>
+    <string name="boton_gasto">Nuevo Gasto</string>
+
+
+    <string name="mensaje_nuevo_income">Nuevo ingreso</string>
+    <string name="mensaje_nuevo_expense">Nuevo gasto</string>
+    <string name="fecha">Fecha</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="categoria">Categoria</string>
+    <string name="descripcion_titulo">Descripción</string>
+    <string name="descripcion">Escribe algo...</string>
+    <string name="boton_Aplicar">Aplicar</string>
+    <string name="boton_Cancelar">Cancelar</string>
+
+
+    <string name="menu_historial">Historial</string>
+    <string name="menu_ajustes">Ajustes</string>
+
+
+    <string name="mensaje_historial">Historial de registros</string>
+    <string name="boton_Volver">Volver</string>
+
+
+    <string-array name="categorias_estandar_ingreso">
+        <item>Salario</item>
+        <item>Bizum</item>
+        <item>Otros ingresos</item>
+    </string-array>
+
+    <string-array name="categorias_estandar_gasto">
+        <item>Comida y bebida</item>
+        <item>Ocio</item>
+        <item>Trasporte</item>
+        <item>Facturas</item>
+        <item>Ropa</item>
+        <item>Regalos</item>
+    </string-array>
+
+
+    <string name="item_menu_Historial">Historial</string>
+    <string name="item_menu_Temas">Temas</string>
+    <string name="item_menu_Monedas">Monedas</string>
+    <string name="item_menu_Sonido">Sonido</string>
+    <string name="item_menu_Idiomas">Idiomas</string>
+    <string name="item_menu_Acerca_de_nosotros">Acerca de nosotros</string>
+    <string name="item_menu_perfil">Perfil</string>
+    <string name="item_menu_Settings">Ajustes</string>
+    <string name="item_menu_Salir">Salir</string>
+    <string name="TextViewRecordTime">Time</string>
+    <string name="TextViewRecordDescription">Description</string>
+
+
+    <string-array name="tipos_de_monedas">
+        <item>€</item>
+        <item>$</item>
+        <item>£</item>
+        <item>₽</item>
+
+    </string-array>
+
+    <string-array name="nombres_de_monedas">
+        <item>Euro (EUR) €</item>
+        <item>Dolar (USD) $</item>
+        <item>Libra esterlina (GBP) £</item>
+        <item>Rublo ruso (RUB) ₽</item>
+
+    </string-array>
+
+    <string-array name="temas_de_la_app">
+        <item>Claro</item>
+        <item>Oscuro</item>
+    </string-array>
+
+    <string name="appwidget_text">CASHFY</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">CASHFY: historial</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ajuste_bd">Ajustes BD</string>
+    <string name="ajuste_tu">Tú</string>
+    <string name="ajuste_nosotros">Acerca de nosotros</string>
+    <string name="cerrar_aplicaci_n_dialogo">Cerrar aplicación</string>
+    <string name="pregunta_seguridad_dialogo">¿Estás seguro de que quieres salir?</string>
+    <string name="si_dialogo">Sí</string>
+    <string name="no_dialogo">No</string>
+    <string name="item_menu_configuracion">Configuración</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+
+
+</resources>

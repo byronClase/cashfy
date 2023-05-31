@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/settings_historial"
+        android:title="Historial"
+        android:icon="@drawable/ic_manage_history"/>
+    <item
+        android:id="@+id/settings_name"
+        android:title="Tú"
+        android:icon="@drawable/ic_person"/>
+    <item
+        android:id="@+id/settings_nosotros"
+        android:title="Acerca de nosotros"
+        android:icon="@drawable/ic_info"/>
+</menu>
