@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.NewRecordActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/titulo_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25sp"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="12sp">
+
+                <TextView
+                    android:id="@+id/dateTvNewRecorActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:padding="10sp"
+                    android:text="@string/fecha"
+                    android:textAlignment="viewStart"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/dateTvDataNewRecordActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginEnd="30sp"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:clickable="true"
+                    android:ems="10"
+                    android:hint="@string/fecha"
+                    android:padding="10sp"
+                    android:textSize="18sp"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:focusable="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="12sp">
+
+                <TextView
+                    android:id="@+id/amountTvNewRecordActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:padding="10sp"
+                    android:text="@string/cantidad"
+                    android:textAlignment="viewStart"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/amountEtNewRecordActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="30sp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/cantidad"
+                    android:inputType="number|numberDecimal"
+                    tools:ignore="TouchTargetSizeCheck"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10sp">
+
+                <TextView
+                    android:id="@+id/categoryTvNewRecordActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:padding="10sp"
+                    android:text="@string/categoria"
+                    android:textAlignment="viewStart"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/categorySpinnerNewRecordActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="30sp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/categoria"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/descriptionTvNewRecordActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:padding="10sp"
+            android:text="@string/descripcion_titulo"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/descriptionEtNewRecordActivity"
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:ems="10"
+            app:autoSizeTextType="uniform"
+            android:gravity="top"
+            android:hint="@string/descripcion"
+            android:inputType="textPersonName"
+            android:textAlignment="viewStart"
+            />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp">
+
+            <Button
+                android:id="@+id/buttonAdd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10sp"
+                android:layout_weight="1"
+                android:text="@string/boton_Aplicar"
+                />
+
+            <Button
+                android:id="@+id/buttonCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_weight="1"
+                android:text="@string/boton_Cancelar"
+                />
+        </TableRow>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/amountTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/categoryTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/arrowImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:src="@drawable/ic_arrow_income" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/expanded_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textViewTimeRecord"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:hint="@string/TextViewRecordTime"
+            android:textSize="16sp"
+            android:tooltipText="Esta es la hora del registro" /> <!-- Color gris -->
+
+        <TextView
+            android:id="@+id/textViewDescriptionRecord"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:hint="@string/TextViewRecordDescription"
+            android:textSize="16sp"
+            android:tooltipText="Esta es la descripción del registro" /> <!-- Color gris -->
+
+        <ImageButton
+            android:id="@+id/ImageButtonEditRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_edit"
+            android:tooltipText="Edita el registro"/>
+
+        <ImageButton
+            android:id="@+id/ImageButtonDeleteRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_delete"
+            android:tooltipText="Elimina el registro"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
