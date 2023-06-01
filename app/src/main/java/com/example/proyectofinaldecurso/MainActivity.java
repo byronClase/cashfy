@@ -132,6 +132,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             intent.putExtra("codigo", modo);
             actualBalance();
             startActivity(intent);
+            System.out.println("se supone vale salir en la app");
         }
     }
 
